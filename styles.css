@@ -17,15 +17,16 @@ body {
 .site-header {
   text-align: left;
   padding-left: 0.1rem;
-  background: #d299e9;
+  background: #000000;
   color: #f9fafb;
-  font-size: 1.5rem;
+  font-size: 1rem;
   filter: drop-shadow(0 4px 16px rgba(17, 24, 39, 0.08));
 }
 
 .site-header h1 {
   margin: 0;
-  padding-top: 0.25rem;
+  padding-top: 0rem;
+  padding-bottom: 0.25rem;
 }
 
 .container {
@@ -64,7 +65,7 @@ code {
 
 .voltic-list img {
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .voltic-list h5 {
@@ -76,4 +77,27 @@ code {
   display: flex;
   align-items: center;
   padding-bottom:-5%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #000000;
+  color: #f9fafb;
+  gap: 3rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: humanist, sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 1.1rem;
+  transition: 0.3s;
+  color:rgb(214, 182, 255);
 }
