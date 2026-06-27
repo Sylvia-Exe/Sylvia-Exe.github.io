@@ -21,12 +21,27 @@ body {
   color: #f9fafb;
   font-size: 1rem;
   filter: drop-shadow(0 4px 16px rgba(17, 24, 39, 0.08));
+  margin-bottom: 1rem;
 }
 
 .site-header h1 {
   margin: 0;
   padding-top: 0rem;
   padding-bottom: 0.25rem;
+}
+
+.PurpleLine{
+  height: 0.5rem;
+  background-color: rgb(214, 182, 255);
+  color:rgb(214, 182, 255)
+}
+
+
+.PurpleLine2{
+  height: 1rem;
+  width: 0.5rem;
+  background-color: rgb(214, 182, 255);
+  color:rgb(214, 182, 255)
 }
 
 .container {
@@ -60,12 +75,17 @@ code {
   justify-content: center;
   gap: 1rem;
   list-style-type: none;
-  padding: 0;
 }
 
 .voltic-list img {
   display: block;
   margin: 1rem auto;
+  padding:auto;
+}
+
+.voltic-list img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 
 .voltic-list h5 {
@@ -87,6 +107,14 @@ code {
   background-color: #000000;
   color: #f9fafb;
   gap: 3rem;
+}
+
+.Intro-text{
+  display:flex;
+  margin:auto;
+  padding:2.5%;
+  gap:50%;
+
 }
 
 a {
