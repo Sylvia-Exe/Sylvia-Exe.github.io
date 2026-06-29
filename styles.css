@@ -84,14 +84,21 @@ code {
 .voltic-list {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: auto;
   list-style-type: none;
+}
+
+.voltic3{
+  padding-left: 1.5rem;
+}
+
+.voltic7{
+  padding-right: 2rem;
 }
 
 .voltic-list img {
   display: block;
   margin: 1rem auto;
-  padding:auto;
 }
 
 .voltic-list img:hover {
