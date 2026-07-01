@@ -99,7 +99,7 @@ code {
 .voltic-list img {
   display: block;
   margin: 1rem auto;
-  object-fit: scale-down;
+
 }
 
 .voltic-list img:hover {
